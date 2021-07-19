@@ -1,8 +1,8 @@
 # Prueba-MSTECS
 
-# mstecs_front
+### mstecs_front
 
-## Configuración del proyecto
+### Configuración del proyecto
 
 ```
 npm install

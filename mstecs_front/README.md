@@ -1,6 +1,6 @@
 # mstecs_front
 
-## Configuración del proyecto
+### Configuración del proyecto
 
 ```
 npm install
