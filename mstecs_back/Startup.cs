@@ -73,13 +73,11 @@ namespace mstecs_back
 
             services.AddScoped<IUserService, UsuarioService>();
 
-            // If using Kestrel:
             services.Configure<KestrelServerOptions>(options =>
             {
                 options.AllowSynchronousIO = true;
             });
 
-            // If using IIS:
             services.Configure<IISServerOptions>(options =>
             {
                 options.AllowSynchronousIO = true;
